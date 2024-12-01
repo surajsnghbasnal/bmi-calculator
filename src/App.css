@@ -1,0 +1,126 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaf4f4;
+    /* Soft, calming background */
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Card styles */
+.card {
+    background: linear-gradient(135deg, #ffffff, #f1f9f9);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    border: 1px solid #d8ecec;
+}
+
+/* Card Header */
+.card h1 {
+    font-size: 24px;
+    color: #2b7a78;
+    margin-bottom: 20px;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3a606e;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 10px;
+    font-size: 14px;
+    border: 2px solid #cce7e7;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #2b7a78;
+    box-shadow: 0 0 8px rgba(43, 122, 120, 0.2);
+}
+
+/* Button group */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #2b7a78;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+    border: 2px solid #F6FBFB;
+}
+
+.btn:hover {
+    background-color: #F6FBFB;
+    color: #2b7a78;
+    border: 2px solid #2b7a78;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #2b7a78;
+    border: 2px solid #2b7a78;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.btn-outline:hover {
+    background-color: #2b7a78;
+    color: white;
+}
+
+/* Result section */
+.result {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.result h3 {
+    color: #2b7a78;
+    font-size: 20px;
+}
+
+.result p {
+    color: #5c5f62;
+}
